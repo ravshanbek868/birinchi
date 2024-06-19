@@ -1,0 +1,558 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+  }
+  body{
+    background-color:rgb(205, 206, 206) ;
+  }
+  
+  .container {
+    width: 1000px;
+    margin: 0 auto;
+    background-color: rgb(205, 206, 206);
+  }
+
+  .row {
+    display: flex;
+    flex-flow: row wrap;
+  }
+  
+  .between {
+    justify-content: space-between;
+  }
+  .around {
+    justify-content: space-around;
+  }
+  .evenly {
+    justify-content: space-evenly;
+  }
+  .middle {
+    align-items: center;
+  }
+  .center {
+    text-align: center;
+    justify-content: center;
+  }
+
+
+.col-1 {
+    max-width: 8.33333%;
+    flex-basis: 8.33333%;
+  }
+  .col-2 {
+    max-width: 16.66666%;
+    flex-basis: 16.66666%;
+  }
+  .col-3 {
+    max-width: 25%;
+    flex-basis: 25%;
+  }
+  .col-4 {
+    max-width: 33.33333%;
+    flex-basis: 33.33333%;
+  }
+  .col-5 {
+    max-width: 41.66666%;
+    flex-basis: 41.66666%;
+  }
+  .col-6 {
+    max-width: 50%;
+    flex-basis: 50%;
+  }
+  .col-7 {
+    max-width: 58.33333%;
+    flex-basis: 58.33333%;
+  }
+  .col-8 {
+    max-width: 66.66666%;
+    flex-basis: 66.66666%;
+  }
+  .col-9 {
+    max-width: 75%;
+    flex-basis: 75%;
+  }
+  .col-10 {
+    max-width: 83.33333%;
+    flex-basis: 83.33333%;
+  }
+  .col-11 {
+    max-width: 91.66666%;
+    flex-basis: 91.66666%;
+  }
+  .col-12 {
+    max-width: 100%;
+    flex-basis: 100%;
+  }
+
+  header{
+    background-color: rgb(233, 230, 230);
+    width: 1000px;
+    height: 12vh;
+    margin: 0 auto;
+    position: fixed;
+    box-shadow: 0px 3px 16px 0px rgb(0 0 0 / 10%);
+    z-index: 10; margin-top: -100px;
+  }
+  .logo{
+    display: inline-block;
+    vertical-align: middle;
+    position: fixed;
+    left: 360px;
+    top: 10px;
+  }
+  .logo img{
+    width: 30%;
+    height: 10%;
+  }
+  .nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    gap: 30px;
+  }
+  .nav button{
+    width: 100px;
+    height: 40px;
+    color: rgb(18, 54, 26);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(231, 138, 16);
+    border-radius: 5px;
+    border-color: rgb(231, 138, 16) ;
+    position: fixed;
+    left: 60rem;
+  }
+  #ul{
+    position: fixed;
+    left: 480px;
+    top: 20px;
+    
+  }
+  ul li a{
+    color: rgb(109, 151, 41);
+  }
+
+  .main{ 
+    width: 1000px;
+    margin-top: 100px;
+    background-color:rgb(233, 230, 230);
+    padding: 5px 30px;
+    height: 1000px;
+  }
+  .text{
+    margin-top: 150px;
+  }
+  .tova img{
+    width: 100%;
+    margin: 0 auto;
+  }
+  #id h1{
+    
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #150C01;
+  }
+   #id p{
+    margin-top: 30px;
+    font-size: 15px;
+    font-family: cursive;
+    color: rgb(83, 82, 82);
+   }
+   .button1{
+    width: 100px;
+    height: 40px;
+    color: rgb(18, 54, 26);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(231, 138, 16);
+    border-radius: 5px;
+    border-color: rgb(231, 138, 16) ;
+    margin-top:30px ;
+   }
+   #h3{
+    margin-top: 3rem;
+    color:rgb(231, 138, 16) ;
+   }
+   .features h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 10px;
+    color: #150C01;
+   }
+  
+   .img img{
+    width: 4rem;
+    height: 4rem;
+    background-color: rgb(214, 213, 160);
+    border-radius:70%;
+    margin-top: 50px;
+   }
+   .img p{
+    padding: 5px;
+    font-family:serif;
+    color: rgb(83, 82, 82);;
+   }
+
+  .about{
+    margin-top: 100px;
+    background-color:rgb(233, 230, 230);
+    padding: 5px 30px;
+    height: 550px;
+    margin: 100px auto;
+  }
+  .about img{
+    border-radius: 50px;
+    width: 100%;
+    height: 475px;
+    margin: 20px auto;
+  }
+  .about p{
+    margin-top: 30px;
+    font-size: 15px;
+    font-family: cursive;
+    color: rgb(83, 82, 82);
+  }
+.menu p{
+  width: 600px;
+  margin: 0 auto;
+  margin-top: 10px;
+  font-size: 15px;
+  font-family: cursive;
+  color: rgb(83, 82, 82);
+}
+.menu{
+  margin-top: 100px;
+  background-color:rgb(233, 230, 230);
+  padding: 5px 10px;
+  height: 1150px;
+  margin-bottom: 10px;
+}
+.menu2 img{
+width: 300px;
+margin: 0 auto;
+border-radius: 76px 10px 76px 0px;
+opacity: 0px;
+padding: 0px;
+
+}
+.menu2 div{
+  width: 300px;
+  margin: 0 auto;
+
+  background-color:#dad9d9 ;
+}
+.menu2{
+  margin-top: 50px;
+  
+}
+#salat p{
+  margin-left: 20px;
+}
+#salat .hi{
+  margin-left: 15px;
+}
+.button2{
+  width: 40px;
+  height: 30px;
+  color: rgb(251, 252, 251);
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgb(231, 138, 16);
+  border-radius: 5px;
+  border-color: rgb(231, 138, 16) ;
+  margin-top:10px ;
+  margin-left: 20px;
+  font-size:larger;
+}
+.menu2 .salat1{
+  width: 300px;
+}
+.take{
+  background-color:
+ #fcf6f0 ;
+  padding: 5px 10px;
+  height: 500px;
+  margin-top: 100px;
+}
+.take .take1{
+  margin-left: 100px;
+}
+.take1 p{
+    margin-top: 10px;
+    font-size: 15px;
+    font-family: cursive;
+    color: rgb(83, 82, 82);
+}
+.take1 img{
+  position: absolute;
+  background-color: #fcf6f0;
+  border-radius: 40px;
+  left: 50rem;
+  top: 190rem;
+}
+
+@media screen and (max-width:1200px) {
+  .container{
+    width: 80%;
+  }
+  .container header{
+    width: 80%;
+  }
+   #ul{
+    left: 17.5rem;
+   }
+   .logo{
+    left: 10rem;
+   }
+
+   .nav button{
+    left: 47.5rem;
+   }
+   .main{
+    width: 100%;
+   }
+   .about img{
+    width: 100%;
+    height: 60vh;
+  }
+  .about p{
+    margin-top: 1.2rem;
+    font-size: 13px;
+  }
+  .menu{
+    height: 1500px;
+  }
+  .menu2 img{
+    width: 18.75rem;
+  }
+  .menu2 div{
+    width: 12.5rem;
+  }
+   .menu2 .salat2{
+    margin-top: 30px;
+   }
+   .take{
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+   }
+   .take1 img{
+    left: 40rem;
+    top: 211rem;
+  }
+ 
+}
+
+
+
+@media screen and (max-width:1000px) {
+  .container{
+    width: 80%;
+  }
+  .container header{
+    width: 80%;
+  }
+   #ul{
+    left: 15.5rem;
+   }
+   .logo{
+    left: 9rem;
+   }
+
+   .nav button{
+    left: 40.5rem;
+   }
+   .main{
+    width: 100%;
+    height: 800px;
+  }
+   .tova text{
+    margin-top:-100px ;
+   }
+   .about{
+    height: 450px;
+   }
+   .about img{
+    width: 100%;
+    height: 50vh;
+  }
+  .about #h3{
+    padding: 0px;
+    margin-top: 0rem;
+  }
+
+  .about p{
+     display: none;
+  }
+  .menu{
+    height: 1500px;
+  }
+  .menu2 img{
+    width: 18.75rem;
+  }
+  .menu2 div{
+    width: 12.5rem;
+  }
+   .menu2 .salat2{
+    margin-top: 30px;
+   }
+   .take{
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+   }
+   .take1 img{
+    left: 34rem;
+    top: 193rem;
+  }
+ 
+}
+
+@media screen and (max-width:800px) {
+  .container{
+    width: 80%;
+  }
+  .container header{
+    width: 80%;
+  }
+   #ul{
+    left: 13.5rem;
+   }
+   .logo{
+    left: 7rem;
+   }
+
+   .nav button{
+    display: none;
+   }
+   .main{
+    width: 100%;
+    height: 800px;
+  }
+   .tova text{
+    margin-top:-100px ;
+   }
+   .about{
+    height: 450px;
+   }
+   .about img{
+    width: 100%;
+    height: 50vh;
+  }
+  .about #h3{
+    padding: 0px;
+    margin-top: 0rem;
+    width: 100%;
+    font-size: 1rem;
+  }
+  .text p{
+    display: none;
+  }
+  .about #h2{
+    width: 100%;
+    font-size: 1.1rem;
+  }
+
+  .about p{
+     display: none;
+  }
+  .menu{
+    height: 2700px;
+  }
+  .menu2 img{
+    width: 18.75rem;
+  }
+  .menu2 div{
+    width: 12.5rem;
+  }
+   .menu2 .salat2{
+    margin-top: 30px;
+   }
+   .menu2 .salat3{
+    margin-top: 30px;
+   }
+   .take{
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+   }
+   .take1 img{
+      width: 200px;
+      left: 30rem;
+      top: 275rem;
+    }
+  }
+
+  @media screen and (max-width:800px) {
+    .container{
+      width: 80%;
+    }
+    .container header{
+      width: 80%;
+    }
+     #ul:nth-child(2) {
+      display: none;
+     }
+     .logo{
+      left: 7rem;
+     }
+  
+     .nav button{
+      display: none;
+     }
+     .main{
+      width: 100%;
+      height: 800px;
+    }
+     .tova text{
+      margin-top:-100px ;
+     }
+     .about{
+      height: 450px;
+     }
+     .about img{
+      width: 100%;
+      height: 50vh;
+    }
+    .about #h3{
+      padding: 0px;
+      margin-top: 0rem;
+      width: 100%;
+      font-size: 1rem;
+    }
+    .text p{
+      display: none;
+    }
+    .about #h2{
+      width: 100%;
+      font-size: 1.1rem;
+    }
+  
+    .about p{
+       display: none;
+    }
+    .menu{
+      height: 2700px;
+    }
+    .menu2 img{
+      width: 18.75rem;
+    }
+    .menu2 div{
+      width: 12.5rem;
+    }
+     .menu2 .salat2{
+      margin-top: 30px;
+     }
+     .menu2 .salat3{
+      margin-top: 30px;
+     }
+     .take{
+      margin-top: 5rem;
+      margin-bottom: 3rem;
+     }
+     .take1 img{
+        width: 200px;
+        left: 30rem;
+        top: 275rem;
+      }
+    }
+ 
+
+
